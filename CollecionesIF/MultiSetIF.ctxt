@@ -1,0 +1,25 @@
+#BlueJ class context
+comment0.target=MultiSetIF
+comment0.text=\r\n\ Representa\ un\ multiconjunto,\ que\ es\ un\ contenedor\ que\r\n\ permite\ almacenar\ elementos\ de\ los\ que\ puede\ haber\r\n\ m\u00FAltiples\ instancias\ dentro\ del\ multiconjunto\r\n
+comment1.params=e\ n
+comment1.target=void\ addMultiple(java.lang.Object,\ int)
+comment1.text=\ A\u00F1ade\ varias\ instancias\ de\ un\ elemento\ al\ multiconjunto\r\n\ \ @pre\:\ n\ >\ 0\ &&\ premult\ \=\ multiplicity(e)\r\n@post\:\ multiplicity(e)\ \=\ premult\ +\ n
+comment2.params=e\ n
+comment2.target=void\ removeMultiple(java.lang.Object,\ int)
+comment2.text=\ Elimina\ varias\ instancias\ de\ un\ elemento\ del\r\n\ multiconjunto\r\n\ @pre\:\ 0\ <\ n\ <\=\ multiplicity(e)\ &&\ premulti\ \=\ multiplicity(e)\ \r\n@post\:\ multiplicity(e)\ \=\ premult\ -\ n
+comment3.params=e
+comment3.target=int\ multiplicity(java.lang.Object)
+comment3.text=\ Devuelve\ la\ multiplicidad\ de\ un\ elemento\ dentro\ del\r\n\ multiconjunto.\r\n@return\:\ multiplicidad\ de\ e\ (0\ si\ no\ est\u00E1\ contenido)
+comment4.params=s
+comment4.target=void\ union(MultiSetIF)
+comment4.text=Reealiza\ la\ uni\u00F3n\ del\ multiconjunto\ llamante\ con\ el\r\npar\u00E1metro
+comment5.params=s
+comment5.target=void\ intersection(MultiSetIF)
+comment5.text=Realiza\ la\ intersecci\u00F3n\ del\ multiconjunto\ llamante\ con\r\nel\ par\u00E1metro
+comment6.params=s
+comment6.target=void\ difference(MultiSetIF)
+comment6.text=Realiza\ la\ diferencia\ del\ multiconjunto\ llamante\ con\ el\r\n\ par\u00E1metro\ (los\ elementos\ que\ est\u00E1n\ en\ el\ llamante\ pero\r\nno\ en\ el\ par\u00E1metro)
+comment7.params=s
+comment7.target=boolean\ isSubMultiSet(MultiSetIF)
+comment7.text=Devuelve\ cierto\ sii\ el\ par\u00E1metro\ es\ un\ submulticonjunto\r\ndel\ llamante
+numComments=8

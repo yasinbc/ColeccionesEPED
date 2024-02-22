@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=BSTreeIF
+comment0.text=\r\n\ Representa\ un\ \u00E1rbol\ de\ b\u00FAsqueda\ binaria,\ en\ el\ que\ los\ *\r\nelementos\ se\ organizan\ autom\u00E1ticamente\ seg\u00FAn\ su\ orden.
+comment1.params=e
+comment1.target=void\ add(java.lang.Comparable)
+comment1.text=\ A\u00F1ade\ un\ elemento\ no\ contenido\ previamente\ en\ el\ \u00E1rbol\ *\r\n\ @Pre\:\ \!contains(e)\ *\r\n@Post\:\ contains(e)
+comment2.params=e
+comment2.target=void\ remove(java.lang.Comparable)
+comment2.text=\ Elimina\ un\ elemento\ previamente\ contenido\ en\ el\ \u00E1rbol\ *\r\n\ @Pre\:\ contains(e)\ *\r\n@Post\:\ \!contains(e)
+comment3.params=
+comment3.target=BSTreeIF.Order\ getOrder()
+comment3.text=\ Devuelve\ el\ orden\ de\ almacenamiento\ de\ los\ elementos\ en\ *\r\nel\ \u00E1rbol
+numComments=4

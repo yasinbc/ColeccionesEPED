@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=GTreeIF
+comment0.text=\r\n\ Representa\ un\ arbol\ general\ de\ elementos,\ en\ el\ que\ un\ *\r\nnodo\ puede\ tener\ cualquier\ n\u00FAmero\ de\ hijos.
+comment1.params=e
+comment1.target=void\ setRoot(java.lang.Object)
+comment1.text=\ Modifica\ la\ ra\u00EDz\ del\ \u00E1rbol.\ *\r\n\ @param\:\ el\ elemento\ que\ se\ quiere\ poner\ como\ ra\u00EDz\ del\ *\r\n\u00E1rbol.
+comment2.params=
+comment2.target=ListIF\ getChildren()
+comment2.text=\ Obtiene\ los\ hijos\ del\ \u00E1rbol\ llamante.\ *\r\n\ @return\ la\ lista\ de\ hijos\ del\ \u00E1rbol\ (en\ el\ orden\ en\ que\ *\r\nest\u00E9n\ almacenados\ en\ el\ mismo).
+comment3.params=pos
+comment3.target=GTreeIF\ getChild(int)
+comment3.text=\ Obtiene\ el\ hijo\ que\ ocupa\ la\ posici\u00F3n\ dada\ por\ par\u00E1metro*\r\n\ @param\ pos\ la\ posici\u00F3n\ del\ hijo\ que\ se\ desea\ obtener,\ *\r\n\ comenzando\ en\ 1.\ *\r\n\ @Pre\ 1\ <\=\ pos\ <\=\ getChildren().size\ ();\ *\r\n@return\ el\ \u00E1rbol\ hijo\ que\ ocupa\ la\ posici\u00F3n\ pos.
+comment4.params=pos\ e
+comment4.target=void\ addChild(int,\ GTreeIF)
+comment4.text=\ Inserta\ un\ \u00E1rbol\ como\ hijo\ en\ la\ posici\u00F3n\ pos.\ *\r\n\ @param\:\ pos\ la\ posici\u00F3n\ que\ ocupar\u00E1\ el\ \u00E1rbol\ entre\ sus\ *\r\n\ hermanos,\ comenzando\ en\ 1.\ *\r\n\ Si\ pos\ \=\=\ getChildren().size\ ()\ +\ 1,\ se\ a\u00F1ade\ como\ *\r\n\ \u00FAltimo\ hijo.\ *\r\n\ @param\:\ e\ el\ hijo\ que\ se\ desea\ insertar.\ *\r\n@Pre\:\ 1<\=\ pos\ <\=\ getChildren\ ().size\ ()\ +\ 1
+comment5.params=pos
+comment5.target=void\ removeChild(int)
+comment5.text=\ Elimina\ el\ hijo\ que\ ocupa\ la\ posici\u00F3n\ par\u00E1metro.\ *\r\n\ @param;\ pos\ la\ posici\u00F3n\ del\ hijo\ con\ base\ 1.\ *\r\n@Pre\:\ 1\ <\=\ pos\ <\=\ getChildren\ ().size\ ();
+numComments=6

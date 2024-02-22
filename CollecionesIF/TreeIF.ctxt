@@ -1,0 +1,22 @@
+#BlueJ class context
+comment0.target=TreeIF
+comment0.text=\r\n\ Representa\ un\ \u00E1rbol,\ que\ es\ una\ colecci\u00F3n\ cuyos\ elementos*\r\n\ se\ organizan\ jer\u00E1rquicamente.\ \r\n
+comment1.params=
+comment1.target=java.lang.Object\ getRoot()
+comment1.text=\ Obtiene\ el\ elemento\ situado\ en\ la\ ra\u00EDz\ del\ \u00E1rbol\ *\r\n\ @Pre\:\ \!isEmpty\ ();\ *\r\n@return\:\ el\ elemento\ que\ ocupa\ la\ ra\u00EDz\ del\ \u00E1rbol.
+comment2.params=
+comment2.target=boolean\ isLeaf()
+comment2.text=\ Decide\ si\ el\ \u00E1rbol\ es\ una\ hoja\ (no\ tiene\ hijos)\ *\r\n@return\:\ true\ sii\ el\ \u00E1rbol\ es\ no\ vac\u00EDo\ y\ no\ tiene\ hijos
+comment3.params=
+comment3.target=int\ getNumChildren()
+comment3.text=Devuelve\ el\ n\u00FAmero\ de\ hijos\ del\ \u00E1rbol
+comment4.params=
+comment4.target=int\ getFanOut()
+comment4.text=\ Devuelve\ el\ fan-out\ del\ \u00E1rbol\:\ el\ n\u00FAmero\ m\u00E1ximo\ de\ *\r\nhijos\ que\ tiene\ cualquier\ nodo\ del\ \u00E1rbol
+comment5.params=
+comment5.target=int\ getHeight()
+comment5.text=\ Devuelve\ la\ altura\ del\ \u00E1rbol\:\ la\ distancia\ m\u00E1xima\ desde*\r\nla\ ra\u00EDz\ a\ cualquiera\ de\ sus\ hojas
+comment6.params=mode
+comment6.target=IteratorIF\ iterator(java.lang.Object)
+comment6.text=\ Obtiene\ un\ iterador\ para\ el\ \u00E1rbol.\ *\r\n\ @param\ mode\ el\ tipo\ de\ recorrido\ indicado\ por\ los\ *\r\nvalores\ enumerados\ definidos\ en\ cada\ TAD\ concreto.
+numComments=7

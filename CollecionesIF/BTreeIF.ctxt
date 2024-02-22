@@ -1,0 +1,25 @@
+#BlueJ class context
+comment0.target=BTreeIF
+comment0.text=\r\n\ Representa\ un\ arbol\ binario\ de\ elementos,\ en\ el\ que\ un\ *\r\n\ nodo\ puede\ tener,\ a\ lo\ sumo,\ dos\ hijos\ (fan-out\ <\=\ 2\ para\ *\r\n\ todos\ los\ nodos).\ \r\n
+comment1.params=e
+comment1.target=void\ setRoot(java.lang.Object)
+comment1.text=\ Modifica\ la\ ra\u00EDz\ del\ \u00E1rbol.\ *\r\n\ @param\:\ el\ elemento\ que\ se\ quiere\ poner\ como\ ra\u00EDz\ del\ *\r\n\u00E1rbol.
+comment2.params=
+comment2.target=BTreeIF\ getLeftChild()
+comment2.text=\ Obtiene\ el\ hijo\ izquierdo\ del\ \u00E1rbol\ llamante.\ *\r\n@return\:\ el\ hijo\ izquierdo\ del\ \u00E1rbol\ llamante.
+comment3.params=child
+comment3.target=void\ setLeftChild(BTreeIF)
+comment3.text=\ Pone\ el\ \u00E1rbol\ par\u00E1metro\ como\ hijo\ izquierdo\ del\ \u00E1rbol\ *\r\n\ llamante.\ Si\ ya\ hab\u00EDa\ hijo\ izquierdo,\ el\ antiguo\ dejar\u00E1\ *\r\n\ de\ ser\ accesible\ (se\ pierde).\ *\r\n\ @Pre\:\ \!isEmpty()\ *\r\n\ @param\ child\ el\ \u00E1rbol\ que\ se\ debe\ poner\ como\ hijo\ *\r\nizquierdo.
+comment4.params=
+comment4.target=void\ removeLeftChild()
+comment4.text=Elimina\ el\ hijo\ izquierdo\ del\ \u00E1rbol.
+comment5.params=
+comment5.target=BTreeIF\ getRightChild()
+comment5.text=\ Obtiene\ el\ hijo\ derecho\ del\ \u00E1rbol\ llamante.\ *\r\n@return\:\ el\ hijo\ derecho\ del\ \u00E1rbol\ llamante
+comment6.params=child
+comment6.target=void\ setRightChild(BTreeIF)
+comment6.text=\ Pone\ el\ \u00E1rbol\ par\u00E1metro\ como\ hijo\ derecho\ del\ \u00E1rbol\ *\r\n\ llamante.\ Si\ ya\ hab\u00EDa\ hijo\ izquierdo,\ el\ antiguo\ dejar\u00E1\ *\r\n\ de\ ser\ accesible\ (se\ pierde).\ *\r\n\ @Pre\:\ \!isEmpty()\ *\r\n\ @param\:\ child\ el\ \u00E1rbol\ que\ se\ debe\ poner\ como\ hijo\ *\r\nderecho.
+comment7.params=
+comment7.target=void\ removeRightChild()
+comment7.text=Elimina\ el\ hijo\ derecho\ del\ \u00E1rbol.
+numComments=8

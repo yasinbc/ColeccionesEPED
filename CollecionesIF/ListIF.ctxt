@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=ListIF
+comment0.text=\r\n\ Representa\ una\ lista\ de\ elementos.\ Una\ lista\ es\ una\r\n\ secuencia\ que\ permite\ modificar\ o\ acceder\ a\ cualquiera\ de\r\n\ sus\ elementos\ de\ forma\ no\ destructiva.\r\n
+comment1.params=pos
+comment1.target=java.lang.Object\ get(int)
+comment1.text=Devuelve\ el\ elemento\ de\ la\ lista\ que\ ocupa\ la\ posici\u00F3n\r\n\ indicada\ por\ el\ par\u00E1metro.\r\n\ @param\:\ pos\ la\ posici\u00F3n\ comenzando\ en\ 1.\r\n\ @pre\:\ 1\ <\=\ pos\ <\=\ size().\r\n\ @return\:\ el\ elemento\ en\ la\ posici\u00F3n\ pos.\r\n
+comment2.params=pos\ e
+comment2.target=void\ set(int,\ java.lang.Object)
+comment2.text=Inserta\ un\ elemento\ en\ la\ Lista.\r\n\ @param\:\ elem\ El\ elemento\ que\ hay\ que\ a\u00F1adir.\r\n\ @param\:\ pos\ La\ posici\u00F3n\ en\ la\ que\ se\ debe\ a\u00F1adir\ elem,\r\n\ comenzando\ en\ 1.\r\n@pre\:\ 1\ <\=\ pos\ <)\ size()+1
+comment3.params=pos
+comment3.target=void\ remove(int)
+comment3.text=Elimina\ el\ elemento\ que\ ocupa\ la\ posici\u00F3n\ del\ par\u00E1metro\r\n\ @param\:\ pos\ la\ posici\u00F3n\ que\ ocupa\ el\ elemento\ al\ eliminar\r\n\ comenzando\ en\ 1\r\n@pre\:\ 1\ <\=\ pos\ <\=\ size()
+numComments=4

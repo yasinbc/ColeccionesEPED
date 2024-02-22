@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=SetIF
+comment0.text=\r\n\ Representa\ un\ conjunto,\ que\ es\ un\ contenedor\ que\ permite\r\n\ almacenar\ elementos\ que\ ser\u00E1n\ \u00FAnicos\ dentro\ del\ conjuto\r\n
+comment1.params=s
+comment1.target=void\ union(SetIF)
+comment1.text=Realiza\ la\ uni\u00F3n\ del\ conjunto\ llamante\ con\ el\ par\u00E1metro
+comment2.params=s
+comment2.target=void\ intersection(SetIF)
+comment2.text=\ Realiza\ la\ intersecci\u00F3n\ del\ conjunto\ llamante\ con\ el\ \r\npar\u00E1metro
+comment3.params=s
+comment3.target=void\ difference(SetIF)
+comment3.text=\ Realiza\ la\ diferencia\ del\ conjunto\ llamante\ con\ el\ \r\n\ \ par\u00E1metro\ (los\ elementos\ que\ est\u00E1n\ en\ el\ llamante\ pero\r\nno\ en\ el\ par\u00E1metro)
+comment4.params=s
+comment4.target=boolean\ isSubset(SetIF)
+comment4.text=\ Devuelve\ true\ sii\ el\ conjunto\ par\u00E1metro\ es\ subconjunto\r\ndel\ llamante
+numComments=5

@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=StackIF
+comment0.text=\r\n\ Representa\ una\ pila\ de\ elementos.\ Una\ pila\ es\ una\ \r\n\ \ \ especializaci\u00F3n\ de\ una\ secuencia,\ que\ mantiene\ el\ orden\ de\ \r\n\ \ \ almacenamiento\ de\ sus\ elementos\ y\ una\ pol\u00EDtica\ de\ acceso\ \r\n\ \ \ Last\ In\ First\ Out\ (LIFO).\r\n
+comment1.params=
+comment1.target=java.lang.Object\ getTop()
+comment1.text=Devuelve\ el\ elemento\ situado\ en\ la\ cima\ de\ la\ pila\r\n\ @pre\:\ \!isEmpty();\r\n@return\:\ la\ cima\ de\ la\ pila
+comment2.params=elem
+comment2.target=void\ push(java.lang.Object)
+comment2.text=Incluye\ un\ elemento\ en\ la\ cima\ de\ la\ pila.\ Modifica\ el\r\n\ tama\u00F1o\ de\ la\ misma.\r\n@param\:\ elem\ el\ elemento\ que\ se\ quiere\ a\u00F1adir\ en\ la\ cima
+comment3.params=
+comment3.target=void\ pop()
+comment3.text=Elimina\ la\ cima\ de\ la\ pila.\ Modifica\ el\ tama\u00F1o\ de\ la\ \r\n\ pila.\r\n@pre\:\ \!isEmpty();
+numComments=4

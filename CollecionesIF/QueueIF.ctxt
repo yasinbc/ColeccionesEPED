@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=QueueIF
+comment0.text=\r\n\ Representa\ una\ cola\ de\ elementos.\ Una\ cola\ es\ una\ \r\n\ \ \ especializaci\u00F3n\ de\ una\ secuencia,\ que\ mantiene\ el\ orden\ \r\n\ \ \ de\ almacenamiento\ de\ sus\ elementos\ y\ una\ pol\u00EDtica\ de\ \r\n\ \ \ acceso\ First\ In\ First\ Out\ (FIFO)\ \r\n
+comment1.params=
+comment1.target=java.lang.Object\ getFirst()
+comment1.text=Devuelve\ el\ primer\ elemento\ de\ la\ cola.\ *\r\n\ @Pre\ \!isEmpty()\ *\r\n@return\ la\ cabeza\ de\ la\ cola\ (su\ primer\ elemento).
+comment2.params=elem
+comment2.target=void\ enqueue(java.lang.Object)
+comment2.text=\ Incluye\ un\ elemento\ al\ final\ de\ la\ cola.\ Modifica\ el\ *\r\n\ tama\u00F1o\ de\ la\ misma.\ *\r\n@param\ elem\ el\ elemento\ que\ debe\ encolar\ (a\u00F1adir).
+comment3.params=
+comment3.target=void\ dequeue()
+comment3.text=\ Elimina\ el\ primer\ elemento\ de\ la\ cola.\ Modifica\ la\ *\r\n\ tama\u00F1o\ de\ la\ misma.\ *\r\n@Pre\ \!isEmpty();
+numComments=4

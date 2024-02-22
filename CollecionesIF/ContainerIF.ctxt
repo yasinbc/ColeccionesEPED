@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=ContainerIF
+comment0.text=\r\n\ Representa\ un\ contenedor,\ que\ es\ una\ colecci\u00F3n\ de\r\n\ elementos\ que\ no\ guardan\ ning\u00FAn\ orden\ entre\ s\u00ED.\r\n
+comment1.params=e
+comment1.target=void\ add(java.lang.Object)
+comment1.text=A\u00F1ade\ un\ elemento\ al\ contenedor
+comment2.params=e
+comment2.target=void\ remove(java.lang.Object)
+comment2.text=Elimina\ un\ elemento\ e\ del\ contenedor\r\n\ @pre\:\ this.contains(e)\r\n@post\:\ \!this.contains(e)
+comment3.params=
+comment3.target=IteratorIF\ iterator()
+comment3.text=Devuelve\ un\ iterador\ para\ el\ contenedor
+numComments=4

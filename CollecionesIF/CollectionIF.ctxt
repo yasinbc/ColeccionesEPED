@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=CollectionIF
+comment0.text=\r\n\ Representa\ una\ coleci\u00F3n\ de\ elementos,\ sin\ ning\u00FAn\ tipo\r\n\ de\ relaci\u00F3n\ entre\ ellos\ m\u00E1s\ que\ la\ pertenencia\ a\ la\ misma\r\n\ colecci\u00F3n.\r\n
+comment1.params=
+comment1.target=int\ size()
+comment1.text=Devuelve\ el\ n\u00FAmero\ de\ elementos\ de\ la\ colecci\u00F3n.
+comment2.params=
+comment2.target=boolean\ isEmpty()
+comment2.text=Devuelve\ true\ sii\ la\ colecci\u00F3n\ no\ contiene\ elementos.
+comment3.params=e
+comment3.target=boolean\ contains(java.lang.Object)
+comment3.text=Devuelve\ sii\ e\ est\u00E1\ en\ la\ colecci\u00F3n.
+comment4.params=
+comment4.target=void\ clear()
+comment4.text=Elimina\ todos\ los\ elementos\ de\ la\ colecci\u00F3n.
+numComments=5

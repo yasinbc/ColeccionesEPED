@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.target=SequenceIF
+comment0.text=\r\n\ Representa\ una\ secuencia,\ que\ es\ una\ colecci\u00F3n\ de\r\n\ elementos\ que\ se\ organizan\ linealmente.\r\n
+comment1.params=
+comment1.target=IteratorIF\ iterator()
+comment1.text=Devuelve\ el\ iterador\ sobre\ la\ secuencia.No\ necesita\r\npar\u00E1metros\ puesto\ que\ el\ recorrido\ es\ lineal\ y\ \u00FAnico.
+numComments=2
